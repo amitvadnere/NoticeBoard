@@ -1,0 +1,60 @@
+
+#mainbody{
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+     border-radius:0px;
+}
+.navbar-brand{
+    font-family: 'Covered By Your Grace', cursive;
+   
+}
+.white{
+    color:white;
+}
+.jumbotron{
+    background-color:transparent;
+    padding:20px;
+}
+.rows .jumbotron{
+    box-shadow:2px 1px 8px black;
+    margin-left:2px;
+    text-align:center;
+    height:350px;
+}
+#maincontent .jumbotron{
+    padding:20px;
+    
+}
+#day{
+    font-size:150px;
+}
+#monthyear{
+    font-size:20px;
+}
+
+.innercontent{
+    height:220px;
+     overflow-y:scroll;
+}
+#mychart{
+   position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+#mychart3{
+   position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+canvas {
+   display: inline;
+}

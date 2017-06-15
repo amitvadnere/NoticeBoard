@@ -1,0 +1,234 @@
+body{
+        font-family: 'Comfortaa', cursive;
+    }
+        .jumbotron{
+        background-color:transparent;
+        margin-bottom:0px;
+        padding-bottom:0px;     
+    }
+ ::-webkit-scrollbar {display:none;}
+.navbar-inverse{
+    padding:0.5%;
+    background-color: transparent;
+    font-weight: bolder;
+    color:white;
+    font-size: 120%;
+}
+h1 {
+   position: relative;
+   bottom:32px; 
+     transform: rotate(-5deg);
+} 
+
+h1{
+    font-size:200%;
+}
+.black{
+    font-family: 'Covered By Your Grace', cursive;
+    color:black;
+    font-weight:bold;
+    padding-right:10%;
+    padding-left:5%;
+    box-shadow:0px 2px 3px black;
+    background-color: White;
+    width:150%;
+}
+.white{
+    font-family: 'Covered By Your Grace', cursive;
+    color:white;
+    font-weight:bold;
+    background-color: black;
+    padding-left:10%;
+    padding-right:5%;
+    box-shadow:1px 2px 3px black;
+    
+}
+    #new{
+        padding:0px;
+        padding-top:10%;
+    }
+
+    #description{
+  
+      background-color:#3bb4c6;
+        position:relative;
+        width:40%;
+        border-right:5px solid white;
+        border-top-right-radius: 500px;
+        border-bottom-right-radius: 500px;
+        top:30%;
+        box-shadow:-5px 0px 20px ;
+        color:white;
+        font-family: 'Comfortaa', cursive;
+    }
+    #description p{
+        font-size: 300%;
+        text-shadow: 0px 0px 2px white ;
+    }
+    #description input{
+        color:white;
+        background-color:transparent;;
+        padding:2%;
+        width:200px;
+        font-weight:bold;
+        border-radius:2px;
+        border:2px solid white;
+
+    }
+    #description input:hover{
+         box-shadow: 0px 1px 10px white;
+    }
+
+    .container-fluid{
+        padding:0px;
+    }
+
+    #headbanner{
+        padding:0px;
+        background-image:url("BANNER.jpg");
+        margin:0px;
+        background-size:cover;
+        height:100%;
+    }
+#event{
+    text-align:right;
+}
+#exam{
+    text-align:right;
+    
+}
+#subnotice span{
+    position:relative;
+    top:40px;
+}
+    #holiday span{
+        position:relative;
+        
+        background-color:white;
+        padding:15px;
+        font-weight:bold;
+        font-size:250%;
+
+    }
+    #curricular span{
+        position:relative;
+        
+        background-color:white;
+        padding:15px;
+        font-weight:bold;
+        font-size:250%;
+
+    }
+    #exam span{
+        
+        background-color:white;
+        padding:15px;
+        font-weight:bold;
+        font-size:250%;
+
+    }
+    #event span{
+        position:relative;
+        
+        background-color:white;
+        padding:15px;
+        font-weight:bold;
+        font-size:250%;
+
+    }
+    .row{
+        border-top:30px solid darkorange;
+        border-radius:5px;
+        padding:0px;
+        height:60%;
+        overflow-x: auto;
+        white-space: nowrap;
+        overflow-y: hidden
+       
+
+    }
+#date{
+    font-size:250%;
+    font-weight:bold;
+    text-shadow: 0px 1px 2px black;
+}
+
+#title{
+    font-size:150%;
+    text-shadow: 0px 0px 1px black;
+    font-weight:bold;
+}
+
+    .col-xs-4{
+      
+        height:100%;
+        padding-top:7%;
+        color:white;
+        border:5px solid white;
+        margin-left:0px;
+        display: inline-block;
+        float: none;
+        line-height:10px;
+    }
+@media only screen and (max-device-width:850px) {
+body{
+		font-size:90%;
+	}
+ #description{
+        position:relative;
+        width:70%;
+        top:150px;
+        height:50%;
+        padding-top:8%;
+        
+    }
+    #description input{
+        width:80%;
+        font-size:200%;
+    }  
+     #subnotice span{
+        top:30px;
+    }
+     .col-xs-4{
+        width:50%;
+        font-size:120%;
+        padding-top:20%;
+    }
+}
+@media only screen and (max-device-width:480px) {
+body{
+		font-size:75%;
+	}
+   
+    #description{
+        position:relative;
+        width:70%;
+        top:100px;
+        height:50%;
+        padding-top:20%;
+        line-height:30px;
+    }
+    #description input{
+        
+        width:80%;
+        font-size:200%;
+
+    }
+    #subnotice span{
+        top:30px;
+    }
+    .col-xs-4{
+        width:100%;
+        font-size:300%;
+        padding-top:35%;
+    }
+}
+@media only screen and (max-device-width:480px) {
+body{
+		font-size:50%;
+	}
+}
+a:link{
+    color:inherit;
+    text-decoration: inherit;
+}

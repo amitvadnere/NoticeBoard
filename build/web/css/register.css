@@ -1,0 +1,88 @@
+body{
+ font-family:'Josefin Sans', sans-serif;
+
+}
+.container-fluid{
+    background-image:url("board.jpg");
+    padding:5%;
+}
+#inner-element{
+    background-color:white;
+    box-shadow: -5px 8px 25px black;
+     border-right:30px solid black;
+    border-radius:0px;
+}
+.jumbotron{
+       background-color:transparent;
+}
+#brand{
+    text-align:center;
+    padding-top:25%;
+    padding-bottom:25%;
+    
+}
+.brand-logo{
+    padding:0%;
+    padding:5%;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+    font-size:550%;
+    padding-right:0px;
+    padding-left:0px;
+    box-shadow:8px 8px 8px black;
+}
+.black{
+    padding:5%;
+    color:white;
+    background-color:black;
+    padding-right:1%;
+}
+.white{
+    padding:5%;
+    background-color:white;
+    color:black;
+    padding-left:1%;
+}
+#signup{
+    text-align:left;
+    color:black;
+    padding-left:2%;
+    border-left:2px solid #ccc;
+   
+}
+hr{
+    border-color:black;
+}
+h4{
+    font-size:280%;
+    font-weight: bolder;
+    
+}
+input,select{
+    border-radius:5px;  
+    width:100%;
+    padding:1%;
+    
+}
+input[type=submit]{
+    color:white;    
+    background-color:black;
+    padding:1%;
+    
+    position:relative;
+    left:12%;
+    font-size:120%;
+    width:50%;
+
+}
+
+@media (max-width: 1100px) {
+    .brand-logo{
+        font-size:330%;
+    }
+}
+@media (min-width: 1200px) {
+    .brand-logo{
+        font-size:550%;
+    }
+}

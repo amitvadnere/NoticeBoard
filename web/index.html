@@ -1,0 +1,44 @@
+
+<html>
+	<head>
+		<title>login</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Didact+Gothic|Oxygen" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+		<style type="text/css">
+		<!--
+			@import url("css/loginnb.css");
+		-->
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-9" id="mainhead">
+				<div id="block">
+						<h1>Medicaps University</h1>
+						<h2>
+								<span id="notice">notice</span><span id="board">board</span>
+						</h2>
+				</div>
+				</div>
+				<div class="col-sm-3" id="loginarm">
+					<h3>LogIn</h3>
+					<hr align="left" >
+					<form method="post" action="LoginServlet">
+						<h4>Uname</h4>
+						<input type="email" placeholder="Uname" name="uname">
+						<h4>Password</h4>
+						<input type="password" placeholder="Password" name="password">
+						<br><br>
+                                                <a href="register.jsp"><p>Register Here</p></a>
+						<input id="submit" type="submit" value="Log In">
+						
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

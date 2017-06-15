@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Didact+Gothic|Oxygen" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <title>Notice Board</title>
+        <style type="text/css">
+            <!--
+			     @import url("css/noticeboard.css");
+		      -->
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <h1>Medi-Caps University</h1>
+                <h2><span class="white">notice</span><span class="black">board</span></h2>
+                <p>Select Your Year<p>
+                <form action="SDisplayServlet" method="get">
+                    <select id="dropdown" name="year">
+						<option value="1">1st Year</option>
+						<option value="2">2nd Year</option>
+						<option value="3">3rd Year</option>
+						<option value="4">4th Year</option>
+					</select>
+                    <input type="submit" id="gobutton" value="GO">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

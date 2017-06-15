@@ -1,0 +1,129 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image: url("img/board.jpg");
+	background-size: cover;
+	font-size: 0.5em;
+}
+
+#mainhead {
+	text-align: center;
+	height: 100%;
+}
+
+#block {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: 80%;
+	}
+}
+
+@media (min-width: 500px) {
+	html {
+		font-size: 120%;
+	}
+}
+
+@media (min-width: 600px) {
+	html {
+		font-size: 150%;
+	}
+}
+
+@media (min-width: 800px) {
+	html {
+		font-size: 200%;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 200%;
+	}
+}
+
+@media (min-width: 1600px) {
+	html {
+		font-size: 400%;
+	}
+}
+
+#mainhead h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-size: 250%;
+}
+
+#mainhead h2 {
+	font-family: 'Covered By Your Grace', cursive;
+	text-shadow: 2px 3px 3px black;
+	font-size: 850%;
+}
+
+#mainhead #notice {
+	color: white;
+}
+
+#mainhead #board {
+	color: black;
+}
+
+#mainhead h3 {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 180%;
+	margin-left: 60%;
+}
+
+#loginarm {
+	margin-top: 5%;
+	padding: 35px;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+	box-shadow: 2px 20px 20px 4px black;
+}
+
+#loginarm h3 {
+	font-size: 62px;
+	font-weight: bold;
+}
+
+#loginarm form {
+	padding-top: 20px;
+}
+
+#loginarm h4 {
+	font-size: 28px;
+}
+
+#loginarm input {
+	padding: 5px;
+	width: 90%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid black
+}
+
+hr {
+	border: 2px solid black;
+}
+
+#submit {
+	color: white;
+	background-color: black;
+	height: 45px;
+}
+a:link{
+    color:inherit;
+}

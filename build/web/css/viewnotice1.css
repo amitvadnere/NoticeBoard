@@ -1,0 +1,178 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+
+body{
+    font-family:Berlin Sans FB;
+}
+.navbar-brand{
+    font-family: 'Covered By Your Grace', cursive;
+    
+}
+.jumbotron{
+    background-color:transparent;
+    border-radius:0px;
+}
+@media (max-width: 765px) {
+    #div1{
+        border:none;
+    }
+    #seprator{
+        position:relative;
+        bottom:50%;
+    }
+}
+#holiday{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#holiday h4{
+    padding-bottom:0px;
+    
+    font-size:200%;
+}
+#holiday hr{
+    padding:0px;
+    margin:0px;
+    border:1px solid black
+}
+#holiday > .jumbotron{
+    border-bottom:1px solid lightgrey;
+    border-radius:0px;
+    padding:20px;
+    margin:0px;
+}
+#curricular{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#curricular h4{
+    padding-bottom:0px;
+    
+    font-size:200%;
+}
+#curricular hr{
+    padding:0px;
+    margin:0px;
+    border:1px solid black
+}
+#curricular > .jumbotron{
+    border-bottom:1px solid lightgrey;
+    border-radius:0px;
+    padding:20px;
+    margin:0px;
+}
+#exams{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#exams h4{
+    padding-bottom:0px;
+    
+    font-size:200%;
+}
+#exams hr{
+    padding:0px;
+    margin:0px;
+    border:1px solid black
+}
+#exams > .jumbotron{
+    border-bottom:1px solid lightgrey;
+    border-radius:0px;
+    padding:20px;
+    margin:0px;
+}
+#events{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#events h4{
+    padding-bottom:0px;
+    
+    font-size:200%;
+}
+#events hr{
+    padding:0px;
+    margin:0px;
+    border:1px solid black
+}
+#events > .jumbotron{
+    border-bottom:1px solid lightgrey;
+    border-radius:0px;
+    padding:20px;
+    margin:0px;
+}
+.col-sm-2{
+    padding:10px;
+}
+#formcontainer{
+    margin:0px;
+    box-shadow: 0px 0px 15px;
+    text-align: center;
+} 
+#filterbr{
+    background-color:grey;
+    border-right:5px dotted grey;
+    color:white;
+}
+
+select{
+    width:70%;
+    padding:10px;
+   
+}
+.container-fluid{
+    margin:0px; 
+}
+#filter-container {
+    padding:0px;
+}
+#filter input{
+    padding:8px;
+    width:150px;
+    border:5px solid black;
+    border-left: none;
+    border-top-right-radius:25px;
+    border-bottom-right-radius: 25px;
+    background-color:transparent;
+    font-size:120%;
+    font-weight:bold; 
+}
+#filter-pop{
+    z-index:1;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:50px;
+/*    background-image:url("transi.png");*/
+    padding-left: 20%;
+    padding-right:20%;
+    display:none;
+    
+}
+#popupbox{
+    z-index:1;
+    background-color: white;
+    color:black;
+    position: relative;
+    top:10%;
+    box-shadow: 0px 0px 20px black;
+}
+#popupbox span{
+    padding:20px;
+    padding-left: 0px;
+}
+#popupbox input{
+    padding:5px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    border-radius: 5px;
+}
+#t1,#t2{
+    display:none;
+}

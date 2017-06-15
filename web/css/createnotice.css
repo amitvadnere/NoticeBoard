@@ -1,0 +1,165 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family:Berlin Sans FB;
+}
+.navbar-brand{
+    font-family: 'Covered By Your Grace', cursive;
+}
+.jumbotron{
+    background-color:transparent;
+}
+#container{
+    margin-left:0px;
+    padding-left:0px;
+}
+#main-container{
+padding:0px;
+    border-right:22px solid black ;
+    z-index: -1;
+    background-color:whitesmoke;
+    margin-left:0px;
+}
+#pnupload{
+    display:none;
+}
+#mnupload{
+    
+    display:none;
+}
+#nextcr{
+    width:22%;
+    padding:1%;
+    border-radius:0px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color:black;
+    border-color:transparent;
+    color:white;
+    font-size:20px;
+}
+
+#div1{
+    border-right:2px solid lightgrey;
+ 
+}
+#main-head{
+    padding:0px;
+}
+#main-head h3{
+    background-color:black ;
+    width:200px;
+    padding:25px;
+    color:white;
+    box-shadow:2px 1px 8px black;
+    margin-top:0px
+}
+#subcontainer{
+    margin-top:0px;
+    padding-top:0px;
+    padding-right:0px
+}
+ td{
+    font-family:Berlin Sans FB;
+}
+input{
+    width:100%;
+    padding:4%;
+}
+select{
+    width:100%;
+    padding:4%;
+}
+#next{
+    width:30%;
+    padding:2%;
+    border-radius:0px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color:black;
+    border-color:transparent;
+    color:white;
+    font-size:20px;
+    
+}
+#next2{
+    width:150px;
+    padding:1%;
+    border-radius:0px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color:black;
+    border-color:transparent;
+    color:white;
+    font-size:20px;
+    
+}
+label{
+    font-size:25px;
+    padding:8px;
+    font-family:  'Covered By Your Grace', cursive;
+}
+#notice{
+    height:200;
+    
+}
+#nuploadp{
+    text-align:center;
+    padding:0px;
+    padding-top:5%;
+    
+}
+#noticefile{
+    padding:0px;
+    padding-top:25px;
+    padding-left:40%;
+}
+#seprator{
+    position:absolute;
+    bottom:50%;
+    left:50%;
+    background-color:whitesmoke;
+    font-family: Berlin Sans FB;
+    font-size: 25px;
+}
+#noticeboxhead{
+    padding:10px;
+}
+textarea{
+    height:35%;
+    width:100%;
+    padding:10px;
+}
+#noticeboxcontainer{
+    margin:0px;
+    padding-top:0px;
+    
+}
+#imagetron{
+    height:300px;
+    margin:25px;
+    border:2px solid black;
+}
+#template{
+    text-align:center;
+    padding-right:55px;
+}
+.publishn{
+    background-color:black;
+    color:white;
+    border-color:black;
+    width:80%;
+    border-radius:15px;
+}
+@media (max-width: 765px) {
+    #div1{
+        border:none;
+    }
+    #seprator{
+        position:relative;
+        bottom:50%;
+    }
+}
